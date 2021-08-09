@@ -1,0 +1,46 @@
+.chart
+{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+}
+.title
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    color: grey;
+    width: 100%;
+}
+.white
+{
+    color: white;
+}
+.grey
+{
+    color:grey;
+}
+.red
+{
+    color: red;
+}
+.aqua
+{
+    color:aqua;
+}
+.row
+{
+    color: white;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    width:100%;
+    
+}

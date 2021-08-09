@@ -1,0 +1,29 @@
+.Heading
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.new
+{
+    width: 100%;
+    color:aqua;
+}
+.upper
+{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+h5
+{
+  margin-top: 10px;
+  text-align: center;
+  color: grey;
+}
+.App_fin
+{
+  margin-top: 10px;
+  color: aqua;
+}

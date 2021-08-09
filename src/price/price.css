@@ -1,0 +1,27 @@
+.head
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 70%;
+}
+.section
+{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+}
+p{
+    font-size:smaller;
+    color:grey;
+}
+h1
+{
+    color: white;
+}
+.per
+{
+    color: aqua;
+}

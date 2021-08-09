@@ -1,23 +1,22 @@
-import logo from './logo.svg';
+import React from "react";
+import Header from "./header-icons/header";
+import Button from "./buttons/buttons";
+import Heading from "./Heading/Heading"
+import Price from "./price/price";
+import Chart from "./chart/chart";
+import LastSection from "./last-section/last-section";
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Heading />
+      <Button />
+      <Header />
+      <h2>Best Price to Trade</h2>
+      <Price />
+      <Chart />
+      <LastSection />
     </div>
   );
 }

@@ -1,0 +1,45 @@
+.footer
+{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;   
+    width: 100%;
+}
+.base
+{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;   
+    width: 100%;
+}
+h3{
+    color: grey;
+}
+.new
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    width:100%;
+    
+}
+.alpha
+{
+    color: aqua;
+}
+.end
+{
+    color: aqua;
+    font-size: medium;
+    height: 60px;
+    width:400px;
+    border-radius: 10px;
+    border:2px solid aqua;
+    background-color: black;
+}

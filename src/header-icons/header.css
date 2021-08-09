@@ -1,0 +1,22 @@
+.Header-section
+{
+    padding:20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width:60%;
+    
+
+}
+.clock
+{
+    margin-top: 10px;
+}
+.button
+{
+    height: 60px;
+    width:200px;
+    background-color: aqua;   
+}
